@@ -1,0 +1,39 @@
+- src: https://github.com/geerlingguy/ansible-role-docker
+  version: master
+  name: docker
+
+- src: https://github.com/wtanaka/ansible-role-gcloud-sdk
+  version: master
+  name: gce_cli
+
+- src: https://github.com/dstil/ansible-aws-cli
+  version: master
+  name: aws_cli
+
+- src: https://github.com/brentwg/ansible-role-azure-cli
+  version: master
+  name: azure_cli
+
+- src: https://github.com/Oefenweb/ansible-fail2ban
+  version: master
+  name: fail2ban
+
+- src: https://github.com/juju4/ansible-apt-cacher-ng-client
+  version: master
+  name: apt-cacher-ng-client
+
+- src: https://github.com/andrewrothstein/ansible-kubernetes-helm.git
+  version: master
+  name: helm
+
+- src: https://github.com/jlund/ansible-go
+  version: master
+  name: golang
+
+- src: https://github.com/geerlingguy/ansible-role-nodejs
+  version: master
+  name: nodejs
+
+- src: https://github.com/kbrebanov/ansible-terraform.git
+  version: master
+  name: terraform
